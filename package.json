@@ -1,6 +1,6 @@
 {
   "name": "eslint",
-  "version": "8.57.1",
+  "version": "8.57.1-lineaje-01",
   "author": "Nicholas C. Zakas <nicholas+npm@nczconsulting.com>",
   "description": "An AST-based pattern checker for JavaScript.",
   "bin": {
@@ -58,7 +58,10 @@
     "lib",
     "messages"
   ],
-  "repository": "eslint/eslint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/eslint-eslint"
+  },
   "funding": "https://opencollective.com/eslint",
   "homepage": "https://eslint.org",
   "bugs": "https://github.com/eslint/eslint/issues/",
@@ -175,6 +178,12 @@
     "espree"
   ],
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "engines": {
     "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
   }
